@@ -1,0 +1,30 @@
+@charset "UTF-8";
+
+body{
+    background-image: linear-gradient(to right ,#197EFF,#FFB833);
+    font: normal 500 1em Arial, Verdana, sans-serif;
+}
+
+h1#principal{
+    text-align: center;
+    background-color: #03002e;
+    color: #cf8b0b;
+}
+.basico{
+    color: #fff673;
+}
+.intermediario{
+    color: #73faff;
+}
+.avançado{
+    color: #ff7373;
+}
+h1{
+    color: #ffce73;
+}
+h2{
+    color: #ffc964;
+}
+p{
+    font: italic 400 20px Arial, Verdana, sans-serif;
+}

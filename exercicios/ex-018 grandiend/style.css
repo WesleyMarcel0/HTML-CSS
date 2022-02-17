@@ -1,0 +1,12 @@
+@charset "UTF-8";
+*{
+    height: 100%;
+}
+
+
+body{
+    background-image: linear-gradient(40deg,#D06D60 30%,#7A0301 50%,#942516 80%);
+}
+h1{
+    color: white;
+}

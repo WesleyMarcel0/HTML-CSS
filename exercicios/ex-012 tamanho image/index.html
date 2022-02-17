@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>midia side</title>
+</head>
+<body>
+
+<h1>imagem dinamica</h1>
+<p>tente abrir este site em dispositivos diferentes ou apenas tente abrir diminuindo o 
+    zoom do seu navegador </p>
+    <picture>
+        <source media="(max-width: 750px )" srcset="image/image-p.png" type="image/png">
+
+        <source media="(max-width: 1050px)" srcset="image/image-m.png" type="image/png">
+
+        <img src="image/imageG.png" alt="image flexivel">
+    </picture>
+    <h1>Reproduzindo Audiu</h1>
+    <p>vamos aprender a reproduzir audius em HTML.</p>
+    <audio preload="metadata" autoplay controls >
+
+        <source src="midia/amv.mp3" type="audio/mpeg">
+
+    </audio>
+    
+</body>
+</html>
