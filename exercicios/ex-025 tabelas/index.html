@@ -11,18 +11,14 @@
         }
         table{
             width: 400px;
+            height: 400px;
             border-collapse: collapse;
-            border: 5px solid red;
         }
         td{
             border: 1px solid black;
             padding: 8px;
-        }
-        tr.linha {
-            background-color: grey;
-        }
-        td.dado{
-            background-color: yellowgreen;
+            text-align: right; /*alinhamenti horizontal */
+            vertical-align: bottom;
         }
     </style>
 </head>
@@ -48,14 +44,14 @@
             <td>B2</td>
             <td>D2</td>
         </tr>
-        <tr class="linha">
+        <tr>
             <td>A3</td>
             <td>B3</td>
             <td>D3</td>
         </tr>
         <tr>
             <td>A4</td>
-            <td class="dado">B4</td>
+            <td>B4</td>
             <td>D4</td>
         </tr>
     </table>
