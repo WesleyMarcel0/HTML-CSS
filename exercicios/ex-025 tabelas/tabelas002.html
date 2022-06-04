@@ -17,6 +17,12 @@
             border: 1px solid black;
             padding: 10px;
         }
+        caption{
+            font-size: 1.2em;
+            font-weight: bolder;
+            padding: 10px;
+            background-color: lightgray;
+        }
         thead, tfoot{
             background-color: grey;
             color: white;
@@ -28,10 +34,11 @@
 </head>
 <body>
     <table>
+        <caption>Tabelas de Dados</caption>
         <thead>
-            <th>posição</th>
-            <th>estado</th>
-            <th>população</th>
+            <th scope="col">posição</th>
+            <th scope="col">estado</th>
+            <th scope="col" style="width: 50px;">população</th>
         </thead>
 
         <tbody>
@@ -55,7 +62,7 @@
         <tfoot>
             <tr>
                 <td>N</td>
-                <th>total de habitantes</th>
+                <th scope="row">total de habitantes</th>
                 <td class="num"><strong>0000</strong></td>
             </tr>
         </tfoot>
