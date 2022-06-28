@@ -12,10 +12,16 @@
         table{
             width: 500px;
             border-collapse: collapse;
+            position: relative;
         }
         th, td{
             border: 1px solid black;
             padding: 10px;
+        }
+        thead > tr > th {
+            position: sticky;
+            top: 0;
+            background-color: rgb(68, 68, 68);
         }
         caption{
             font-size: 1.2em;
