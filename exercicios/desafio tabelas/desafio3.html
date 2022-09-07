@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body{
+            background-color: antiquewhite;
+        }
+        table{
+            border-collapse: collapse;
+            width: 400px;
+        }
+        tr, th, td{
+            border: 1px black solid;
+        }
+        th, .color1{
+            background-color: rgb(100, 98, 98);
+            color: white;
+        }
+
+        .B1{
+            background-color: white;
+            color: black;
+        }
+    </style>
+    <title>Document</title>
+</head>
+<body>
+    <table>
+
+        <thead>
+            <tr>
+                <th rowspan="2" scope="colgroup">area</th>
+                <th rowspan="2" scope="row">disciplina</th>
+                <th colspan="2" scope="rowgroup">notas</th>
+                <th rowspan="2" scope="row">media</th>
+            </tr>
+            <tr>
+                <th scope="row">nota#1</th>
+                <th scope="row">nota#2</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <th rowspan="4" class="B1" scope="colgroup">exatas</th>
+                <td>matematica</td>
+                <td>3,5</td>
+                <td>6,0</td>
+                <td>9,5</td>
+
+            </tr>
+            <tr>
+                <td>fisica</td>
+                <td>1,0</td>
+                <td>9,0</td>
+                <td>10,0</td>
+            </tr>
+            <tr>
+                <td>Quimica</td>
+                <td>2,0</td>
+                <td>7,0</td>
+                <td>9,0</td>
+            </tr>
+            <tr>
+                <td>Biologia</td>
+                <td>3,0</td>
+                <td>5,0</td>
+                <td>8,0</td>
+            </tr>
+
+            <tr>
+                <th colspan="4" scope="col">Medias de Exatas</th>
+                <td class="color1">00,00</td>
+            </tr>
+
+            <tr>
+                <th rowspan="2" class="B1" scope="colgroup">Humanas</th>
+                <td>Historia</td>
+                <td>6,7</td>
+                <td>5,8</td>
+                <td>12,5</td>
+            </tr>
+            <tr>
+                <td>Geografia</td>
+                <td>1,2</td>
+                <td>2,6</td>
+                <td>3,8</td>
+            </tr>
+            <tr>
+                <th colspan="4" scope="col">Media de Humanas</th>
+                <td class="color1">00,00</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
