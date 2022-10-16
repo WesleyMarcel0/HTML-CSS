@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>chebox e radio</title>
+</head>
+<body>
+    <h1>Teste de Formulario</h1>
+
+    <form action="cadastro.php" method="get" autocomplete="on">
+        <fieldset>
+            <legend>Sexo</legend>
+            <input type="radio" name="sexo" id="isexo" value="M"><label for="isexo">Masculino</label>
+
+            <input type="radio" name="sexo" id="ifsexo" value="F"> <label for="ifsexo">Feminino</label>
+
+        </fieldset>
+        <fieldset>
+            <legend>Esporte favoritos</legend>
+            <input type="checkbox" name="esfut" id="isfut"> <label for="isfut">Futebol</label> <br>
+            <input type="checkbox" name="esvolei" id="esvolei"> <label for="esvolei">Volei</label>
+        </fieldset>
+
+
+        <p>
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Limpar">
+        </p>
+    </form>
+</body>
+</html>
