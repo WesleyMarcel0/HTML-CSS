@@ -1,0 +1,30 @@
+@charset "UTR-8";
+
+/* Typical Device Breankpoints
+--------------------------------------
+Pequenas telas: ate 600px
+Celular: de 600px ate 768px
+tablet: 768px ate 992px
+e assim vai
+*/
+
+@media screen and (min-width:768px) {
+    /*se quiser que ate tablet tenha o menu hamburgue então so mudar o min para 992*/
+
+    .material-symbols-outlined {
+        display: none;
+    }
+
+    menu{
+        display: block;
+    }
+
+    menu >ul>li{
+        display: inline-block;
+        width: 10vw;
+    }
+
+    main{
+        width: 768px;
+    }
+}
