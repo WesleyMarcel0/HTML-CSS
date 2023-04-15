@@ -61,7 +61,6 @@ menu > ul > li > a {
 
 menu > ul > li > a:hover{
     background-color: rgb(153, 153, 153);
-    border: 1px solid rgb(0, 0, 0);
     
 }
 
